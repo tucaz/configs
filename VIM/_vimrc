@@ -1,0 +1,8 @@
+"Does not break lines
+set nowrap
+
+"Show line numbers
+set number
+
+"Fix backspace problems
+set backspace=2
