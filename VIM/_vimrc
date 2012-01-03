@@ -6,3 +6,11 @@ set number
 
 "Fix backspace problems
 set backspace=2
+
+"Set tab spaces to 4
+set ts=4
+
+"Make CTRL+C and CTRL+V besides other things work like an Windows app
+"More info here -> http://serverfault.com/questions/27917/configure-vim-for-text-selection-with-shift-and-copy-paste-via-ctrlc-ctrlv
+source $VIMRUNTIME/mswin.vim
+behave mswin
